@@ -6942,7 +6942,7 @@ void main() {
     right: 0;
     margin: auto;
   }
-`,ISe=()=>_n(fp,{children:[Ge(r1,{children:_n(j.Suspense,{fallback:null,children:[Ge(uV,{environment:"city",intensity:.6,children:Ge(TSe,{})}),Ge(M1,{enableZoom:!1,autoRotate:!0})]})}),Ge(_Se,{children:"We design products with a strong focus on both world class design and ensuring your product is a market success."})]});function bSe({...t}){const e=j.useRef(),{nodes:n,materials:r}=h0("/mac-draco.glb");return Ge("group",{ref:e,...t,dispose:null,children:_n("group",{position:[0,2.96,-.13],rotation:[Math.PI/2,0,0],children:[Ge("mesh",{material:r.aluminium,geometry:n.Cube008.geometry}),Ge("mesh",{material:r["matte.001"],geometry:n.Cube008_1.geometry}),Ge("mesh",{material:r["screen.001"],geometry:n.Cube008_2.geometry})]})})}const BSe=Xt.div`
+`,ISe=()=>_n(fp,{children:[Ge(r1,{children:_n(j.Suspense,{fallback:null,children:[Ge(uV,{environment:"city",intensity:.6,children:Ge(TSe,{})}),Ge(M1,{enableZoom:!1,autoRotate:!0})]})}),Ge(_Se,{children:"We design products with a strong focus on both world class design and ensuring your product is a market success."})]});function bSe({...t}){const e=j.useRef(),{nodes:n,materials:r}=h0("/reactportfoli0/mac-draco.glb");return Ge("group",{ref:e,...t,dispose:null,children:_n("group",{position:[0,2.96,-.13],rotation:[Math.PI/2,0,0],children:[Ge("mesh",{material:r.aluminium,geometry:n.Cube008.geometry}),Ge("mesh",{material:r["matte.001"],geometry:n.Cube008_1.geometry}),Ge("mesh",{material:r["screen.001"],geometry:n.Cube008_2.geometry})]})})}const BSe=Xt.div`
   width: 200px;
   height: 70px;
   padding: 20px;
