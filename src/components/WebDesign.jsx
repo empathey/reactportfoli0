@@ -3,7 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import React, { Suspense } from "react";
 import styled from "styled-components";
 
-import Mac from "/reactportfoli0/Mac";
+import Mac from "./Mac";
 
 const Desc = styled.div`
   width: 200px;
