@@ -6,7 +6,9 @@ import WebDesign from "./WebDesign";
 
 const data = [
   "Web Design",
-  
+  "React Development",
+  "Game Development"
+ 
 ];
 
 const Section = styled.div`
@@ -50,7 +52,7 @@ const List = styled.ul`
 `;
 
 const ListItem = styled.li`
-  font-size: 90px;
+  font-size: 70px;
   font-weight: bold;
   cursor: pointer;
   color: transparent;
@@ -68,7 +70,7 @@ const ListItem = styled.li`
     position: absolute;
     top: 0;
     left: 0;
-    color: pink;
+    color: red;
     width: 0px;
     overflow: hidden;
     white-space: nowrap;
@@ -108,7 +110,7 @@ const Works = () => {
         <Right>
           {work === "Web Design" ? (
             <WebDesign />
-          ) : work === "Development" ? (
+          ) : work === "React Development" ? (
             <Development />
           ) : (
             <ProductDesign />

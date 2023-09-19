@@ -59,7 +59,7 @@ const Line = styled.img`
 `;
 
 const Subtitle = styled.h2`
-  color: #da4ea2;
+  color: #FF0000;
 `;
 
 const Desc = styled.p`
@@ -68,7 +68,7 @@ const Desc = styled.p`
 `;
 
 const Button = styled.button`
-  background-color: #da4ea2;
+  background-color: #FF0000;
   color: white;
   font-weight: 500;
   width: 120px;
@@ -96,13 +96,12 @@ const Who = () => {
           <Title>Think outside the square space</Title>
           <WhatWeDo>
             <Line src="./img/line.png" />
-            <Subtitle>Who we Are</Subtitle>
+            <Subtitle>Who am I?</Subtitle>
           </WhatWeDo>
           <Desc>
-            a creative group of designers and developers with a passion for the
-            arts.
+           I'm a senior in University looking for 
           </Desc>
-          <Button>See our works</Button>
+          <Button>See my works</Button>
         </Right>
       </Container>
     </Section>

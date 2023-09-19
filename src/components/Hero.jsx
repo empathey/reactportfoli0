@@ -64,7 +64,7 @@ const Line = styled.img`
 `;
 
 const Subtitle = styled.h2`
-  color: #da4ea2;
+  color: #FF0000;
 `;
 
 const Desc = styled.p`
@@ -77,7 +77,7 @@ const Desc = styled.p`
 `;
 
 const Button = styled.button`
-  background-color: #da4ea2;
+  background-color: #FF0000;
   color: white;
   font-weight: 500;
   width: 100px;
@@ -97,8 +97,8 @@ const Right = styled.div`
 `;
 
 const Img = styled.img`
-  width: 800px;
-  height: 600px;
+  width: 600px;
+  height: 400px;
   object-fit: contain;
   position: absolute;
   top: 0;
@@ -126,13 +126,13 @@ const Hero = () => {
       <Navbar />
       <Container>
         <Left>
-          <Title>Think. Make. Solve.</Title>
+          <Title>Plan. Code. Solve.</Title>
           <WhatWeDo>
             <Line src="./img/line.png" />
-            <Subtitle>What we Do</Subtitle>
+            <Subtitle>What I Do</Subtitle>
           </WhatWeDo>
           <Desc>
-            we enjoy creating delightful, human-centered digital experiences.
+          I enjoy programming in new ways that 
           </Desc>
           <Button>Learn More</Button>
         </Left>
@@ -144,7 +144,7 @@ const Hero = () => {
               <directionalLight position={[3, 2, 1]} />
               <Sphere args={[1, 100, 200]} scale={2.4}>
                 <MeshDistortMaterial
-                  color="#3d1c56"
+                  color="#ff5349"
                   attach="material"
                   distort={0.5}
                   speed={2}

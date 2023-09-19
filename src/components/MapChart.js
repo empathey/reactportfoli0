@@ -9,7 +9,7 @@ import {
   ZoomableGroup
 } from "react-simple-maps";
 
-import allStates from "./allstates.json";
+import allStates from "./reactportfoli0/allstates.json";
 
 const geoUrl = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
 
@@ -17,7 +17,7 @@ const offsets = {
   IL: [-30, -62]
 };
 
-const Map = () => {
+const MapChart = () => {
   return (
     <ComposableMap
       projection="geoAlbersUsa"
@@ -73,4 +73,4 @@ const Map = () => {
   );
 };
 
-export default Map;
+export default MapChart;
