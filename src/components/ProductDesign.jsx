@@ -6,8 +6,8 @@ import styled from "styled-components";
 
 const Desc = styled.div`
   width: 200px;
-  height: 70px;
-  padding: 20px;
+  height: 80px;
+  padding: 22px;
   background-color: white;
   border-radius: 10px;
   position: absolute;
@@ -35,8 +35,7 @@ const ProductDesign = () => {
         </Suspense>
       </Canvas>
       <Desc>
-        We design products with a strong focus on both world class design and
-        ensuring your product is a market success.
+        Game development is one of my dreams. While game development is much harder at times, it feels much more fulfulling.
       </Desc>
     </>
   );

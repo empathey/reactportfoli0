@@ -28,7 +28,7 @@ const Left = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 74px;
+  font-size: 70px;
 
   @media only screen and (max-width: 768px) {
     font-size: 60px;
@@ -93,13 +93,13 @@ const Who = () => {
           </Canvas>
         </Left>
         <Right>
-          <Title>Think outside the square space</Title>
+          <Title>Think outside the box</Title>
           <WhatWeDo>
             <Line src="./img/line.png" />
             <Subtitle>Who am I?</Subtitle>
           </WhatWeDo>
           <Desc>
-           I'm a senior in University looking for 
+           I'm a senior in University looking for an internship as a Front-end developer, game developer or programmer.  
           </Desc>
           <Button>See my works</Button>
         </Right>

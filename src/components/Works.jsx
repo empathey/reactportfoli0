@@ -5,10 +5,10 @@ import ProductDesign from "./ProductDesign";
 import WebDesign from "./WebDesign";
 
 const data = [
-  "Web Design",
+  
   "React Development",
+  "Web Design",
   "Game Development"
- 
 ];
 
 const Section = styled.div`

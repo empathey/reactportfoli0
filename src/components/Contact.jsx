@@ -16,20 +16,29 @@ const Container = styled.div`
   gap: 50px;
 `;
 
+
 const Left = styled.div`
-  flex: 1;
-  display: flex;
+flex: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 20px;
+text-align: center;
+
+@media only screen and (max-width: 768px) {
   align-items: center;
-  justify-content: flex-end;
-  @media only screen and (max-width: 768px) {
-    justify-content: center;
-  }
+  text-align: center;
+}
 `;
 
 const Title = styled.h1`
-  font-weight: 200;
+  font-size: 40px;
+  color: #FF0000;
+  @media only screen and (max-width: 768px) {
+    font-size: 60px;
+  }
 `;
-
+{/*
 const Form = styled.form`
   width: 500px;
   display: flex;
@@ -54,7 +63,7 @@ const TextArea = styled.textarea`
   border-radius: 5px;
   background-color: #e8e6e6;
 `;
-
+*/}
 const Button = styled.button`
   background-color: #FF0000;
   color: white;
@@ -65,6 +74,11 @@ const Button = styled.button`
   padding: 20px;
 `;
 
+const Desc = styled.p`
+  font-size: 24px;
+  color: lightgray;
+`;
+
 const Right = styled.div`
   flex: 1;
 
@@ -72,7 +86,7 @@ const Right = styled.div`
     display: none;
   }
 `;
-
+{/*
 const Contact = () => {
   const ref = useRef();
   const [success, setSuccess] = useState(null);
@@ -123,5 +137,31 @@ const Contact = () => {
     </Section>
   );
 };
+*/}
 
+
+const Contact = () => {
+  
+  
+  
+  return (
+    <Section>
+      <Container>
+        <Left>
+        <Title>Contact Me.</Title>
+          <Desc>
+          Located right here in Chicago, you can contact me any time.
+          <br /> Email: cszewczul@mail.roosevelt.edu
+          <br /> Phone Number: (630)7460996 
+          <br /> Thank you for your interest
+          </Desc>
+          
+        </Left>
+        <Right>
+          <Map />
+        </Right>
+      </Container>
+    </Section>
+  );
+};
 export default Contact;

@@ -7,7 +7,7 @@ import Mac from "./Mac";
 
 const Desc = styled.div`
   width: 200px;
-  height: 70px;
+  height: 65px;
   padding: 20px;
   background-color: white;
   border-radius: 10px;
@@ -36,8 +36,7 @@ const WebDesign = () => {
         </Suspense>
       </Canvas>
       <Desc>
-        We design products with a strong focus on both world class design and
-        ensuring your product is a market success.
+        Web development is one of my passions. It may be tedious at times, but produces beautiful results.
       </Desc>
     </>
   );
