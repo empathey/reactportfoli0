@@ -99,7 +99,7 @@ const Who = () => {
             <Subtitle>Who am I?</Subtitle>
           </WhatWeDo>
           <Desc>
-           I'm a senior in University looking for an internship as a Front-end developer, game developer or programmer.  
+           I'm a senior in University looking for an internship as a Front-end developer, game developer or programmer. I have a passion for computing and I have been programming on and off since I was 12 years old. 
           </Desc>
           <Button>See my works</Button>
         </Right>

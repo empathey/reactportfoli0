@@ -132,7 +132,7 @@ const Hero = () => {
             <Subtitle>What I Do</Subtitle>
           </WhatWeDo>
           <Desc>
-          I enjoy programming in new ways that 
+          I enjoy programming in emerging technologies that solve big problems. No matter the challenge, I never back down.
           </Desc>
           <Button>Learn More</Button>
         </Left>
